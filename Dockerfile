@@ -5,7 +5,7 @@ FROM php:7.4-apache
 WORKDIR /var/www/html
  
 # Copy the current directory contents into the container at /var/www/html
-COPY . .
+COPY . . .
  
 # If you need to install additional PHP extensions, you can do it like this:
 # RUN docker-php-ext-install pdo pdo_mysql
