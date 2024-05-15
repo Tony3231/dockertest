@@ -1,4 +1,4 @@
-# Use an official PHP runtime as a parent image
+# Use an officia PHP runtime as a parent image
 FROM php:7.4-apache
 # Set the working directory in the container
 WORKDIR /var/www/html
